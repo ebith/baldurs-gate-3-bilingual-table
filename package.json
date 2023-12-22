@@ -1,0 +1,25 @@
+{
+  "name": "baldur-s-gate-3-bilingual-table",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gridjs": "^6.0.6",
+    "preact": "^10.19.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.7.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "fast-xml-parser": "^4.3.2",
+    "prettier": "^3.1.1",
+    "vite": "^5.0.10",
+    "vite-plugin-windicss": "^1.9.2",
+    "windicss": "^3.5.6"
+  }
+}
