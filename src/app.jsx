@@ -1,4 +1,4 @@
-import { Grid } from 'gridjs'
+import { Grid, html } from 'gridjs'
 import 'gridjs/dist/theme/mermaid.css'
 import { useEffect, useRef } from 'preact/hooks'
 // eslint-disable-next-line no-unused-vars
@@ -19,7 +19,17 @@ function Table() {
   const wrapperRef = useRef(null)
 
   const grid = new Grid({
-    columns: ['en', 'ja'],
+    columns: [
+      {
+        name: 'en',
+        formatter: (cell) => {
+          return html(
+            `<a href="https://bg3.wiki/w/index.php?go=Go&search=${cell}" class="text-orange-600 hover:underline">${cell}</a`,
+          )
+        },
+      },
+      'ja',
+    ],
     pagination: true,
     search: true,
     data,
