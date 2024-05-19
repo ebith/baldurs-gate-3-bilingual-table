@@ -9,17 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gridjs": "^6.0.6",
-    "preact": "^10.19.3"
+    "gridjs": "^6.2.0",
+    "preact": "^10.22.0"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.7.0",
-    "better-sqlite3": "^9.2.2",
-    "eslint": "^8.56.0",
+    "@preact/preset-vite": "^2.8.2",
+    "better-sqlite3": "^9.6.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.1.1",
-    "vite": "^5.0.10",
-    "vite-plugin-windicss": "^1.9.2",
+    "prettier": "^3.2.5",
+    "vite": "^5.2.11",
+    "vite-plugin-windicss": "^1.9.3",
     "windicss": "^3.5.6"
   }
 }
