@@ -1,0 +1,68 @@
+--- orig/bg3data_lib.py	2023-12-19 16:06:52.000000000 +0900
++++ bg3data_lib.py	2024-05-23 22:27:18.925155700 +0900
+@@ -1,2 +0,0 @@
+-import sys
+-import time
+@@ -4 +1,0 @@
+-import ujson as json
+@@ -6,0 +4,5 @@
++import sys
++import time
++from pathlib import Path
++from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
++
+@@ -8 +9,0 @@
+-import xlsxwriter
+@@ -10,3 +11,2 @@
+-
+-from typing import Dict, Optional, List, Any, Union, Tuple, Callable, Set
+-from pathlib import Path
++import ujson as json
++import xlsxwriter
+@@ -14,2 +13,0 @@
+-
+-from openpyxl.styles import Font, PatternFill
+@@ -16,0 +15 @@
++from openpyxl.styles import Font, PatternFill
+@@ -182 +181 @@
+-    
++
+@@ -209 +208 @@
+-def save_to_excel_with_xlsxwriter_direct(data_dict: Dict_Table, output_file: Path, output_sheet: str, 
++def save_to_excel_with_xlsxwriter_direct(data_dict: Dict_Table, output_file: Path, output_sheet: str,
+@@ -215 +214 @@
+-    
++
+@@ -283 +282 @@
+-    
++
+@@ -286 +285 @@
+-    
++
+@@ -289 +288 @@
+-    
++
+@@ -298 +297 @@
+-    
++
+@@ -303 +302 @@
+-        
++
+@@ -355 +354 @@
+-        
++
+@@ -430 +429 @@
+-        
++
+@@ -466 +465 @@
+-                parser = etree.XMLParser()
++                parser = etree.XMLParser(huge_tree=True)
+@@ -469 +468 @@
+-                
++
+@@ -560 +559 @@
+-    
++
+@@ -645 +644 @@
+-    
++

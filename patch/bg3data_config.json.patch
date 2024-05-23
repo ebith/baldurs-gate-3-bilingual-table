@@ -1,0 +1,12 @@
+--- orig/bg3data_config.json	2023-12-19 16:06:52.000000000 +0900
++++ bg3data_config.json	2024-01-17 07:19:08.000000000 +0900
+@@ -4,3 +4,3 @@
+-  "Option_save_to_excel": true,
+-  "Option_save_to_json_dict": true,
+-  "Option_save_to_json_array": true,
++  "Option_save_to_excel": false,
++  "Option_save_to_json_dict": false,
++  "Option_save_to_json_array": false,
+@@ -8 +8 @@
+-  "TRANSLATION_LANGUAGES": ["English","French"],
++  "TRANSLATION_LANGUAGES": ["English", "Japanese"],
